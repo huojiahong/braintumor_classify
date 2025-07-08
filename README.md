@@ -4,10 +4,11 @@
 --------------DATASET----------------------------
 
 CT数据从kaggle下载
+
 CT data from kaggle (https://www.kaggle.com/datasets/murtozalikhon/brain-tumor-multimodal-image-ct-and-mri/data)
-filename: Brain Tumor CT scan Images
-          - healthy(2300)
-          - tumor(2318)
+# filename: Brain Tumor CT scan Images
+##          - healthy(2300)
+##          - tumor(2318)
 if need data, download via kaggle
 
 
