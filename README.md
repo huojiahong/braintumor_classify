@@ -27,7 +27,7 @@ The Adam optimizer is adopted to adaptively adjust the learning rate. It has bee
 
 --------------RESULT------------------------------------
 
-测试集准确率>97%，生成模型文件.pth和.onnx，进行C++部署(文件中Makefile用于部署），在网上和医院里找了几个图片，经验证均测试正确。
+测试集准确率>97%，生成模型文件.pth和.onnx(put in the releases)，进行C++部署(文件中Makefile用于部署），在网上和医院里找了几个图片，经验证均测试正确。
 文件中还展示了混淆矩阵，模型结构。
 Accuracy>97%. Generate Model with .pth and .onnx. Deploye the .onnx in C++（Makefile used fot it).
 The document also displays the confusion matrix and model structure.
