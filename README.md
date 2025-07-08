@@ -18,7 +18,7 @@ if need data, download via kaggle
 每一层卷积后进行BN，对每一批次的特征图进行标准化，稳定数据分布。之后使用常规的relu激活。
 最后一层做全连接分类输出。二分类中选择输出大的值对应的属性作为类别结果。
 采用Adam优化器，自适应调整每个参数学习率，经测试，在此过程中比SGD效果好。
-Build a simple ResNet: five layers convolution, five times Maxpooling, initial size 224*224, downsample to 7*7.
+Build a simple ResNet: five layers convolution, five times Maxpooling, initial size 224\*224, downsample to 7\*7.
 Among them, residual connections are introduced in the 1/2 and 3/5 layers to retain the underlying features and achieve feature fusion.
 After each layer of convolution, BN is performed to normalize the feature maps of each batch and stabilize the data distribution.Then activate it using relu. 
 The last layer uses fully connected classification. In the binary classification, select the attribute corresponding to the larger output value as the category result: healthy or tumor.
